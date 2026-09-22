@@ -1,0 +1,15 @@
+CRITICAL - 2026-09-22 04:55:43 --> ErrorException: Undefined array key "email"
+[Method: GET, Route: users]
+in APPPATH\Views\users.php on line 31.
+ 1 APPPATH\Views\users.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'D:\\xampp\\htdocs\\pananan\\app\\Views\\users.php', 31)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\xampp\\htdocs\\pananan\\app\\Views\\users.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('users', [], true)
+ 5 APPPATH\Controllers\Users.php(20): view('users', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Users->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\public\\index.php')
