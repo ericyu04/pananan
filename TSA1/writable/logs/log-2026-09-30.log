@@ -1,0 +1,223 @@
+CRITICAL - 2026-09-30 12:57:25 --> Error: Class "BaseController" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\MainController.php on line 3.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(340): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(320): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\pananan\\TSA1\\app\\Controllers\\MainController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 5 SYSTEMPATH\Router\Router.php(790): class_exists('\\App\\Controllers\\MainController')
+ 6 SYSTEMPATH\Router\Router.php(228): CodeIgniter\Router\Router->processRouteAttributes()
+ 7 SYSTEMPATH\CodeIgniter.php(852): CodeIgniter\Router\Router->handle('/')
+ 8 SYSTEMPATH\CodeIgniter.php(464): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 9 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:02:49 --> Error: Class "App\Controllers\TaskModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\MainController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->tasks()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:03:29 --> Error: Class "App\Controllers\TaskModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\MainController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->tasks()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:03:30 --> Error: Class "App\Controllers\TaskModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\MainController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->tasks()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:03:31 --> Error: Class "App\Controllers\TaskModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\MainController.php on line 7.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->tasks()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:25:49 --> Error: Class "App\Controllers\TaskModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\MainController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->tasks()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:25:49 --> Error: Class "App\Controllers\TaskModel" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\MainController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->tasks()
+ 2 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 3 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:32:52 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile_page.php"
+[Method: GET, Route: profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile_page.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile_page', [], true)
+ 3 APPPATH\Controllers\MainController.php(31): view('profile_page', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:33:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile_page.php"
+[Method: GET, Route: profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile_page.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile_page', [], true)
+ 3 APPPATH\Controllers\MainController.php(31): view('profile_page', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:33:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile_page.php"
+[Method: GET, Route: profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile_page.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile_page', [], true)
+ 3 APPPATH\Controllers\MainController.php(31): view('profile_page', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:33:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile_page.php"
+[Method: GET, Route: profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile_page.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile_page', [], true)
+ 3 APPPATH\Controllers\MainController.php(31): view('profile_page', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:35:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile_page.php"
+[Method: GET, Route: profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile_page.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile_page', [], true)
+ 3 APPPATH\Controllers\MainController.php(31): view('profile_page', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:36:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile_page.php"
+[Method: GET, Route: profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile_page.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile_page', [], true)
+ 3 APPPATH\Controllers\MainController.php(31): view('profile_page', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:36:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "about_page.php"
+[Method: GET, Route: about]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('about_page.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('about_page', [], true)
+ 3 APPPATH\Controllers\MainController.php(36): view('about_page')
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->about()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:36:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile_page.php"
+[Method: GET, Route: profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile_page.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile_page', [], true)
+ 3 APPPATH\Controllers\MainController.php(31): view('profile_page', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:36:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "profile_page.php"
+[Method: GET, Route: profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile_page.php')
+ 2 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile_page', [], true)
+ 3 APPPATH\Controllers\MainController.php(31): view('profile_page', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:39:19 --> ErrorException: Undefined variable $customer
+[Method: GET, Route: profile]
+in APPPATH\Views\profile.php on line 44.
+ 1 APPPATH\Views\profile.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customer', 'D:\\xampp\\htdocs\\pananan\\TSA1\\app\\Views\\profile.php', 44)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\xampp\\htdocs\\pananan\\TSA1\\app\\Views\\profile.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('profile', [], true)
+ 5 APPPATH\Controllers\MainController.php(31): view('profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
+CRITICAL - 2026-09-30 13:39:36 --> ErrorException: Undefined variable $users
+[Method: GET, Route: tasks]
+in APPPATH\Views\tasks.php on line 43.
+ 1 APPPATH\Views\tasks.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'D:\\xampp\\htdocs\\pananan\\TSA1\\app\\Views\\tasks.php', 43)
+ 2 SYSTEMPATH\View\View.php(240): include('D:\\xampp\\htdocs\\pananan\\TSA1\\app\\Views\\tasks.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('tasks', [], true)
+ 5 APPPATH\Controllers\MainController.php(23): view('tasks', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\MainController->tasks()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\pananan\\TSA1\\public\\index.php')
