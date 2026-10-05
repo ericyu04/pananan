@@ -30,7 +30,7 @@
             <div class="card-body">
                 <h5 class="card-title">User Information</h5>
                 <p class="card-text">Please fill in the details below to add a new user.</p>
-                <form action="/users/new" method="post">
+                <form action="/users" method="post">
                     <?= csrf_field() ?>
                     <div class="mb-3">
                         <label for="username" class="form-label">Username</label>

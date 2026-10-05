@@ -30,7 +30,7 @@
             <div class="card-body">
                 <h5 class="card-title">User Information</h5>
                 <p class="card-text">Please fill in the details below to edit the user.</p>
-                <form action="/users/<?= $user['id'] ?>/update" method="post">
+                <form action="/users/edit/<?= esc($user['id']) ?>" method="post"> <?= csrf_field() ?>
                     <div class="mb-3">
                         <label for="username" class="form-label">Username</label>
                         <input type="text" class="form-control" id="username" name="username" value="<?= old('username', $user['username']) ?>" required>

@@ -27,8 +27,6 @@
         <h1>User List</h1>
         <p>This is the users page.</p>
         <button class="btn btn-primary mb-3" onclick="window.location.href='/users/new'">Add New User</button>
-        <form action="/users/edit" method="get">
-            
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">User Information</h5>
@@ -38,17 +36,17 @@
                         <tr>
                             <th>Username</th>
                             <th>Full Name</th>
-                            <th>Role</th>
                             <th>Created At</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php foreach ($users as $user): ?>
                             <tr>
                                 <td><?= esc($user['username']) ?></td>
-                                <td><?= esc($user['name']) ?></td>
-                                <td><?= esc($user['role']) ?></td>
+                                <td><?= esc($user['full_name']) ?></td>
                                 <td><?= esc($user['created_at']) ?></td>
+                                <td> <a class= "btn btn-secondary" href="/users/edit/<?= esc($user['id']) ?>">Edit</a> </td>
                             </tr>
                         <?php endforeach; ?>
                     </tbody>

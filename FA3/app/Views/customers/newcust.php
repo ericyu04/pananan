@@ -30,7 +30,7 @@
             <div class="card-body">
                 <h5 class="card-title">Customer Information</h5>
                 <p class="card-text">Please fill in the details below to add a new customer.</p>
-                <form action="/customers/new" method="post"> <?= csrf_field() ?>
+                <form action="/customers" method="post"> <?= csrf_field() ?>
                     <div class="mb-3">
                         <label for="full_name" class="form-label">Full Name</label>
                         <input type="text" class="form-control" id="full_name" name="full_name" value="<?= old('full_name') ?>" required>

@@ -13,7 +13,6 @@ $routes->post('/customers', 'Customers::create');
 $routes->get('/customers/edit/(:num)', 'Customers::edit/$1');
 $routes->post('/customers/edit/(:num)', 'Customers::update/$1');
 
-
 $routes ->get('/users/new', 'Users::new');
 $routes->post('/users', 'Users::create');
 $routes->get('/users/edit/(:num)', 'Users::edit/$1');

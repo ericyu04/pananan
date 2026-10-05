@@ -27,18 +27,6 @@
         <h1>Customer List</h1>
         <p>This is the customers page.</p>
         <button class="btn btn-primary mb-3" onclick="window.location.href='/customers/new'">Add New Customer</button>
-        <form action="/customers/edit" method="get">
-            <div class="mb-3">
-                <label for="customer_id" class="form-label">Select Customer to Edit</label>
-                <select class="form-select" id="customer_id" name="customer_id" required>
-                    <option value="" disabled selected>Select a customer</option>
-                    <?php foreach ($options as $option): ?>
-                        <option value="<?= esc($option['id']) ?>"></option>
-                    <?php endforeach; ?>
-                </select>
-            </div>
-            <button type="submit" class="btn btn-secondary mb-3">Edit Existing Customer</button>
-        </form>
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Customer Information</h5>
@@ -50,15 +38,17 @@
                             <th>Email</th>
                             <th>Phone</th>
                             <th>Created At</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach ($customers as $customer): ?>
+                       <?php foreach ($customers as $customer): ?>
                             <tr>
-                                <td><?= esc($customer['name']) ?></td>
+                                <td><?= esc($customer['full_name']) ?></td>
                                 <td><?= esc($customer['email']) ?></td>
                                 <td><?= esc($customer['phone']) ?></td>
                                 <td><?= esc($customer['created_at']) ?></td>
+                                <td> <a class= "btn btn-secondary" href="/customers/edit/<?= esc($customer['id']) ?>">Edit</a> </td>
                             </tr>
                         <?php endforeach; ?>
                     </tbody>
