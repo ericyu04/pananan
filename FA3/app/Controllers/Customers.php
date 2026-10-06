@@ -7,7 +7,7 @@ class Customers extends BaseController
     private array $rules = [
         'full_name' => 'required|min_length[5]|max_length[100]',
         'email' => 'required|valid_email',
-        'phone' => 'required|numeric|min_length[10]|max_length[15]'
+        'phone' => 'required|numeric|min_length[10]|max_length[15]',
     ];
 
     public function index()
@@ -31,7 +31,7 @@ class Customers extends BaseController
         $model->insert([
             'full_name' => $this->request->getPost('full_name'),
             'email' => $this->request->getPost('email'),
-            'phone' => $this->request->getPost('phone')
+            'phone' => $this->request->getPost('phone'),
         ]);
 
         return redirect()->to('/customers');
@@ -63,35 +63,10 @@ class Customers extends BaseController
         $model->update($id, [
             'full_name' => $this->request->getPost('full_name'),
             'email' => $this->request->getPost('email'),
-            'phone' => $this->request->getPost('phone')
+            'phone' => $this->request->getPost('phone'),
         ]);
 
         return redirect()->to('/customers');
     }
 
-
-    // public function new()
-    // {
-    //     $rules = [
-    //         'full_name' => 'required|min_length[5]|max_length[100]',
-    //         'email' => 'required|valid_email',
-    //         'phone' => 'required|numeric|min_length[10]|max_length[15]'
-    //     ];
-    //     if (!$this->validate($rules)) {
-    //         return redirect()->back()->withInput();
-    //     }
-    //     return view('customers/newcust');
-    // }
-    // public function edit($id)
-    // {
-    //     $model = new CustomerModel();
-    //     $customer = $model->find($id);
-
-    //     if (!$customer) {
-    //         throw new \CodeIgniter\Exceptions\PageNotFoundException('Customer not found');
-    //     }
-
-    //     $data = ['customer' => $customer];
-    //     return view('customers/editcust', $data);
-    // }
 }

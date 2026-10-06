@@ -30,7 +30,7 @@
             <div class="card-body">
                 <h5 class="card-title">User Information</h5>
                 <p class="card-text">Please fill in the details below to add a new user.</p>
-                <form action="/users" method="post">
+                <form action="/users" method="post" enctype="multipart/form-data">
                     <?= csrf_field() ?>
                     <div class="mb-3">
                         <label for="username" class="form-label">Username</label>
@@ -40,6 +40,10 @@
                         <label for="full_name" class="form-label">Full Name</label>
                         <input type="text" class="form-control" id="full_name" name="full_name" value="<?= old('full_name') ?>" required>
                     </div> <?= validation_show_error('full_name') ?>
+                    <div class="mb-3">
+                        <label for="avatar" class="form-label">Avatar</label>
+                        <input type="file" class="form-control" id="avatar" name="avatar" accept="image/png, image/jpeg, image/jpg">
+                    </div> <?= validation_show_error('avatar') ?>
                     <button type="submit" class="btn btn-primary">Add User</button>
                 </form>
             </div>

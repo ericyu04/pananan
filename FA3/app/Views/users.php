@@ -34,6 +34,7 @@
                 <table class="table table-bordered">
                     <thead>
                         <tr>
+                            <th>Avatar</th>
                             <th>Username</th>
                             <th>Full Name</th>
                             <th>Created At</th>
@@ -43,6 +44,10 @@
                     <tbody>
                         <?php foreach ($users as $user): ?>
                             <tr>
+                                <td>
+                                    <?php $img = ! empty($user['avatar']) ? 'uploads/' . $user['avatar'] : 'images/placeholder.png'; ?>
+                                    <img src="<?= base_url($img) ?>" alt="Avatar" width="50" height="50" class="rounded-circle">
+                                </td>
                                 <td><?= esc($user['username']) ?></td>
                                 <td><?= esc($user['full_name']) ?></td>
                                 <td><?= esc($user['created_at']) ?></td>
